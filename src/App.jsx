@@ -5,11 +5,11 @@ import './styles.css';
 
 
 const products = [
-  { id: 1, name: 'T-Shirt', price: 20, image: '/assets/tshirt.jpg' },
-  { id: 2, name: 'Jeans', price: 40, image: '/assets/jeans.jpg' },
-  { id: 3, name: 'Sneakers', price: 60, image: '/assets/sneakers.jpg' },
-  { id: 4, name: 'Hat', price: 15, image: '/assets/hat.jpg' },
-  { id: 5, name: 'Socks', price: 5, image: '/assets/socks.jpg' },
+  { id: 1, name: 'T-Shirt', price: 20, Image : '/images/tshirt.jpg'},
+  { id: 2, name: 'Jeans', price: 40, Image : '/images/jeans.jpg' },
+  { id: 3, name: 'Sneakers', price: 60 , Image : '/images/sneakers.webp'},
+  { id: 4, name: 'Hat', price: 15, Image : '/images/hat.webp' },
+  { id: 5, name: 'Socks', price: 5, Image : '/images/socks.jpeg' },
 ];
 
 function App() {
