@@ -1,8 +1,8 @@
 import { useState } from "react";
 import ProductList from "./Components/ProductList";
 import Cart from "./Components/Cart";
-import './styles.css';
-
+// import './styles.css';
+import './App.css'
 
 const products = [
   { id: 1, name: 'T-Shirt', price: 20, Image : '/images/tshirt.jpg'},
@@ -46,4 +46,3 @@ function App() {
   <script src="App.js"></script>
   
   export default App;
-  
